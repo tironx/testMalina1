@@ -8,7 +8,7 @@ def index():
 @app.route('/user/<name>')
 def user(name):
     if name =="Jacek":
-        name = "Pan Jacek"
+        name = "Jacek Placek"
     return '<h1>Witaj, {}</h1>'.format(name)
 if __name__ =='__main__':
     app.run(
